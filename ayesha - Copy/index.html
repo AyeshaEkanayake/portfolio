@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ayesha Sewwandi | IT Undergraduate</title>
+  <meta name="description" content="Portfolio of Ayesha Sewwandi — IT Undergraduate at SLIIT. Projects, skills, and contact." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body id="top">
+
+  <!-- Background decor -->
+  <div class="bg-noise" aria-hidden="true"></div>
+  <div class="bg-blobs" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+  </div>
+
+  <!-- Top Progress -->
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <!-- Nav -->
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top">
+        <span class="brand-dot"></span>
+        <span>Ayesha</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="btn tiny">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero container section" id="hero">
+      <div class="hero-grid">
+        <div class="hero-text reveal">
+          <div class="pill">
+            <i class="fa-solid fa-mug-hot"></i>
+            <span>IT Undergraduate • SLIIT</span>
+          </div>
+
+          <h1 class="headline">
+            Hi, I’m <span class="accent">Ayesha Sewwandi</span> —
+            building practical web & software solutions.
+          </h1>
+
+          <p class="subhead">
+            Second year Information Technology undergraduate specializing in IT.
+            Passionate about problem solving, critical thinking, data handling, and
+            developing real world IT solutions.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#projects"><i class="fa-solid fa-code"></i> View Projects</a>
+            <a class="btn ghost" href="#contact"><i class="fa-solid fa-paper-plane"></i> Let’s Talk</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-card">
+              <span class="k">Email</span>
+              <a class="v" href="mailto:ayeshasewwandi747@gmail.com">ayeshasewwandi747@gmail.com</a>
+            </div>
+            <div class="meta-card">
+              <span class="k">Phone</span>
+              <a class="v" href="tel:+94767121640">+94 76 712 1640</a>
+            </div>
+            <div class="meta-card">
+              <span class="k">Location</span>
+              <span class="v">Malabe, Sri Lanka</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="profile">
+            <!-- You can replace initials with a real photo later -->
+             <div class="profile-spotlight">
+                     <div class="avatar-wrap">
+                          <img src="images/ayesha.jpg" alt="Ayesha Sewwandi" class="avatar-img" />
+                          <span class="avatar-shine" aria-hidden="true"></span>
+                      </div>   
+
+  
+
+
+                      </div>
+                   
+
+
+            <div class="profile-info">
+              <h3>Ayesha Sewwandi</h3>
+              <p>IT Undergraduate at SLIIT</p>
+              <div class="socials">
+                <a class="icon-btn" target="_blank" rel="noreferrer"
+                   href="https://www.linkedin.com/in/ay
+                                         esha-sewwandi-6a2605297/?
+                                         lipi=urn%3Ali%3Apage%3Ad_fla
+                                         gship3_profile_view_base%3BG
+                                         qmStzbKTI2KQtN8vLQYow%3
+                                         D%3D#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              <a class="icon-btn"
+   href="assets/Ayesha_Sewwandi_CV.pdf"
+   target="_blank"
+   download
+   title="View / Download CV">
+  <i class="fa-solid fa-file-arrow-down"></i>
+</a>
+
+               <a class="icon-btn" target="_blank" rel="noreferrer"
+   href="https://github.com/AyeshaEkanayake">
+  <i class="fa-brands fa-github"></i>
+</a>
+
+              </div>
+            </div>
+          </div>
+
+  <div class="stats">
+  <div class="stat">
+    <span class="num" id="statProjects" data-count="0">0</span>
+    <span class="label">Academic Projects</span>
+  </div>
+  <div class="stat">
+    <span class="num" id="statSkills" data-count="0">0</span>
+    <span class="label">Technical Skills</span>
+  </div>
+  <div class="stat">
+    <span class="num" id="statCerts" data-count="0">0</span>
+    <span class="label">Certifications</span>
+  </div>
+</div>
+
+
+          <div class="hero-highlights">
+            <div class="chip"><i class="fa-solid fa-circle-check"></i> MERN Stack</div>
+            <div class="chip"><i class="fa-solid fa-circle-check"></i> Java + JSP/Servlet</div>
+            <div class="chip"><i class="fa-solid fa-circle-check"></i> Databases & SQL</div>
+            <div class="chip"><i class="fa-solid fa-circle-check"></i> API Testing (Postman)</div>
+          </div>
+
+          <div class="mini-timeline">
+            <div class="mini-item">
+              <span class="dot"></span>
+              <p><b>Now</b> — Seeking Internship</p>
+            </div>
+            <div class="mini-item">
+              <span class="dot"></span>
+              <p><b>Focus</b> — Software Dev & Data Analysis</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="container section" id="about">
+      <div class="section-head reveal">
+        <h2>About Me</h2>
+        <p>
+          I enjoy turning ideas into reliable systems with clean UI, strong logic,
+          and databases that make sense.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="card reveal">
+          <h3>Professional Profile</h3>
+          <p>
+            I’m a second year IT undergraduate at SLIIT pursuing a BSc (Hons) specializing in
+            Information Technology. I’m passionate about problem solving, critical thinking,
+            and applying technical skills to real-world challenges. I’m seeking an internship
+            where I can learn from industry experts and contribute to innovative projects.
+          </p>
+          <div class="tags">
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Critical Thinking</span>
+            <span class="tag">Software Development</span>
+            <span class="tag">Data Handling</span>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <h3>Interests</h3>
+          <ul class="nice-list">
+            <li><i class="fa-solid fa-sparkles"></i> Data analytics</li>
+            <li><i class="fa-solid fa-sparkles"></i> Statistics</li>
+            <li><i class="fa-solid fa-sparkles"></i> Problem solving</li>
+            <li><i class="fa-solid fa-sparkles"></i> Software development</li>
+          </ul>
+
+          <div class="divider"></div>
+
+          <h3>Soft Skills</h3>
+          <div class="soft-grid">
+            <span class="soft">Project Management</span>
+            <span class="soft">Teamwork</span>
+            <span class="soft">Time Management</span>
+            <span class="soft">Leadership</span>
+            <span class="soft">Communication</span>
+            <span class="soft">Critical Thinking</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="container section" id="skills">
+      <div class="section-head reveal">
+        <h2>Technical Skills</h2>
+        <p>My current toolkit for building web apps, APIs, and database driven systems.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-top">
+            <h3>Programming</h3>
+            <span class="badge">Core</span>
+          </div>
+          <div class="bars">
+   <div class="bar" data-level="85"><span>Java</span><i></i></div>
+            <div class="bar" data-level="78"><span>Python</span><i></i></div>
+            <div class="bar" data-level="82"><span>JavaScript</span><i></i></div>
+
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-top">
+            <h3>Web & UI</h3>
+            <span class="badge">Frontend</span>
+          </div>
+          <div class="pill-grid">
+  <span class="pill2"><i class="fa-brands fa-html5"></i> HTML</span>
+  <span class="pill2"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+  <span class="pill2"><i class="fa-brands fa-react"></i> React</span>
+  <span class="pill2"><i class="fa-solid fa-code"></i> XML</span>
+</div>
+
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-top">
+            <h3>Backend & Tools</h3>
+            <span class="badge">Server</span>
+          </div>
+       <div class="pill-grid">
+  <span class="pill2"><i class="fa-brands fa-node-js"></i> Node.js</span>
+  <span class="pill2"><i class="fa-solid fa-server"></i> Express</span>
+  <span class="pill2"><i class="fa-brands fa-php"></i> PHP</span>
+  <span class="pill2"><i class="fa-solid fa-gears"></i> JSP/Servlet</span>
+  <span class="pill2"><i class="fa-solid fa-flask"></i> Postman</span>
+  <span class="pill2"><i class="fa-solid fa-cube"></i> OOP</span>
+</div>
+
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-top">
+            <h3>Databases</h3>
+            <span class="badge">Data</span>
+          </div>
+       <div class="pill-grid">
+  <span class="pill2"><i class="fa-solid fa-database"></i> MySQL</span>
+  <span class="pill2"><i class="fa-solid fa-leaf"></i> MongoDB</span>
+  <span class="pill2"><i class="fa-solid fa-table"></i> SQL</span>
+</div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="container section" id="projects">
+      <div class="section-head reveal">
+        <h2>Academic Projects</h2>
+        <p>Selected projects with technologies and highlights.</p>
+      </div>
+
+      <div class="project-grid">
+        <!-- <article class="project card reveal">
+            <div class="project-media">
+  <img src="images/projects/medical.png" alt="Online Medical Portal preview">
+</div>
+
+          <div class="project-head">
+            <h3>Online Medical Portal</h3>
+            <span class="date">Jul 2024 – Nov 2024</span>
+          </div>
+          <p>
+            Group project with appointment scheduling, feedback management, user & inventory
+            management. Built a user friendly UI and a dynamic backend for data processing.
+          </p>
+          <div class="stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>XAMPP</span>
+          </div>
+          <div class="project-actions">
+            <button class="btn tiny ghost open-modal" data-modal="m1">
+              <i class="fa-solid fa-circle-info"></i> Details
+            </button>
+          </div>
+        </article> -->
+
+             <article class="project card reveal">
+  <div class="project-media">
+    <img src="images/projects/vehicle1.jpg" alt="Mood Tracker App">
+  </div>
+
+  <div class="project-head">
+    <h3>Mood Tracker App</h3>
+    <span class="date">Feb 2025 – May 2025</span>
+  </div>
+
+  <p>
+    Android application designed to track daily moods, habits, and water intake reminders.
+    Built using modern Android architecture with local data storage.
+  </p>
+
+  <div class="stack">
+    <span>Java</span>
+    <span>Kotlin</span>
+    <span>Room</span>
+    <span>Shared Preferences</span>
+  </div>
+
+  <div class="project-actions">
+    <button class="btn tiny ghost open-modal" data-modal="m2">
+      <i class="fa-solid fa-circle-info"></i> Details
+    </button>
+  </div>
+</article>
+
+
+        <!-- <article class="project card reveal">
+            <div class="project-media">
+  <img src="images/projects/vehicle.jpg" alt="Vehicle Rental System preview">
+</div>
+
+          <div class="project-head">
+            <h3>Vehicle Rental System</h3>
+            <span class="date">Feb 2025 – May 2025</span>
+          </div>
+          <p>
+            Web application for rental management with full CRUD. Modules for vehicles, customers,
+            bookings, and feedback. Dynamic server side with database integration.
+          </p>
+          <div class="stack">
+            <span>Java</span><span>JSP/Servlet</span><span>MySQL</span>
+          </div>
+          <div class="project-actions">
+            <button class="btn tiny ghost open-modal" data-modal="m2">
+              <i class="fa-solid fa-circle-info"></i> Details
+            </button>
+          </div>
+        </article> -->
+
+        <article class="project card reveal">
+            <div class="project-media">
+  <img src="images/projects/petcare.png" alt="Pet Care & Services System preview">
+</div>
+
+          <div class="project-head">
+            <h3>Pet Care & Services System</h3>
+            <span class="date">Jul 2025 – Nov 2025</span>
+          </div>
+          <p>
+            MERN stack platform built in a 5 member team. Appointments, grooming/spa, product sales,
+            clinic management, CRUD operations, and PDF report generation.
+          </p>
+          <div class="stack">
+            <span>React</span><span>MongoDB</span><span>Express</span><span>Node.js</span><span>Postman</span>
+          </div>
+          <div class="project-actions">
+            <button class="btn tiny ghost open-modal" data-modal="m3">
+              <i class="fa-solid fa-circle-info"></i> Details
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education + Certifications -->
+    <section class="container section" id="education">
+      <div class="section-head reveal">
+        <h2>Education & Certifications</h2>
+        <p>Academic background and professional learning.</p>
+      </div>
+
+      <div class="edu-grid">
+        <div class="card reveal">
+          <h3>Education</h3>
+          <div class="timeline">
+            <div class="t-item">
+              <span class="t-dot"></span>
+              <div>
+                <h4>BSc (Hons) in Information Technology (Specialized in IT)</h4>
+                <p class="muted">SLIIT, Malabe • 2023 – Present</p>
+                <p class="muted">Relevant Coursework: Database Management Systems, Statistics</p>
+              </div>
+            </div>
+
+            <div class="t-item">
+              <span class="t-dot"></span>
+              <div>
+                <h4>G.C.E. Advanced Level – Physical Science</h4>
+                <p class="muted">Government Science College, Matale • 2022</p>
+              </div>
+            </div>
+
+            <div class="t-item">
+              <span class="t-dot"></span>
+              <div>
+                <h4>G.C.E. Ordinary Level</h4>
+                <p class="muted">Central College, Galewela • 2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <h3>Certifications</h3>
+          <ul class="nice-list">
+            <li><i class="fa-solid fa-award"></i> Certificate course in Computer Science — NIBM (2023)</li>
+            <li><i class="fa-solid fa-award"></i> Certificate course in Python Programming — University of Moratuwa (2023)</li>
+          </ul>
+
+          <div class="divider"></div>
+
+          <h3>References</h3>
+          <div class="ref">
+            <p><b>Prof. Samantha Rajapaksha</b></p>
+            <p class="muted">Head, Department of IT • SLIIT</p>
+            <p class="muted">Tel: 0117544802 • Mob: 0714121097</p>
+            <p class="muted">Email: samantha.r@sliit.lk</p>
+          </div>
+
+          <div class="ref">
+            <p><b>Mr. Nelum Amarasinghe</b></p>
+            <p class="muted">Senior Lecturer • SLIIT</p>
+            <p class="muted">Mob: 07623435634</p>
+            <p class="muted">Email: nelum.a@sliit.lk</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="container section" id="contact">
+      <div class="section-head reveal">
+        <h2>Contact</h2>
+        <p>If you have an internship opportunity or a project idea, let’s connect.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="card reveal">
+          <h3>Get in touch</h3>
+          <div class="contact-list">
+            <a class="contact-item" href="mailto:ayeshasewwandi747@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <span class="k">Email</span>
+                <span class="v">ayeshasewwandi747@gmail.com</span>
+              </div>
+            </a>
+
+            <a class="contact-item" href="tel:+94767121640">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <span class="k">Phone</span>
+                <span class="v">+94 76 712 1640</span>
+              </div>
+            </a>
+
+            <a class="contact-item" target="_blank" rel="noreferrer"
+               href="https://www.linkedin.com/in/ayesha-sewwandi-6a2605297/">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <div>
+                <span class="k">LinkedIn</span>
+                <span class="v">Open profile</span>
+              </div>
+            </a>
+
+            <div class="contact-item nohover">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <span class="k">Address</span>
+                <span class="v">195/4, Weliwita Road, Samauyana, Malabe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <h3>Send a message</h3>
+
+          <!-- This form uses mailto for direct email -->
+         <form class="form"
+      action="https://formspree.io/f/mvzzakgd"
+      method="POST"
+      id="hostedForm">
+
+  <div class="field">
+    <label>Your Name</label>
+    <input name="name" type="text" placeholder="Enter your name" required />
+  </div>
+
+  <div class="field">
+    <label>Your Email</label>
+    <input name="email" type="email" placeholder="Enter your email" required />
+  </div>
+
+  <div class="field">
+    <label>Subject</label>
+    <input name="subject" type="text" placeholder="Internship / Project / Inquiry" required />
+  </div>
+
+  <div class="field">
+    <label>Message</label>
+    <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+  </div>
+
+  <!-- optional: spam protection -->
+  <input type="text" name="_gotcha" style="display:none" />
+
+  <!-- optional: email subject line in inbox -->
+  <input type="hidden" name="_subject" value="New message from Portfolio" />
+
+  <button class="btn full" type="submit">
+    <i class="fa-solid fa-paper-plane"></i> Send Message
+  </button>
+
+  <p class="form-hint muted" id="formStatus">
+    Messages go directly to the inbox using Formspree.
+  </p>
+</form>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Ayesha Sewwandi •</p>
+        <a class="to-top" href="#top">
+  <i class="fa-solid fa-arrow-up"></i> Back to top
+</a>
+
+      </div>
+    </footer>
+  </main>
+
+  <!-- Modals -->
+  <div class="modal" id="m1" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      <h3>Online Medical Portal</h3>
+      <p class="muted">Highlights</p>
+      <ul class="nice-list">
+        <li><i class="fa-solid fa-check"></i> Appointment scheduling & feedback management</li>
+        <li><i class="fa-solid fa-check"></i> User and inventory management modules</li>
+        <li><i class="fa-solid fa-check"></i> Dynamic backend processing using PHP + XAMPP</li>
+      </ul>
+    </div>
+  </div>
+
+<div class="modal" id="m2" aria-hidden="true">
+  <div class="modal-card">
+    <button class="modal-close" aria-label="Close">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <h3>Mood Tracker App</h3>
+    <p class="muted">Highlights</p>
+
+    <ul class="nice-list">
+      <li>
+        <i class="fa-solid fa-check"></i>
+        Daily mood tracking with visual history
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        Habit and water intake reminder system
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        Local data persistence using Room database
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        Lightweight storage using Shared Preferences
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        Developed using Java & Kotlin with clean architecture
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+  <div class="modal" id="m3" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      <h3>Pet Care & Services System</h3>
+      <p class="muted">Highlights</p>
+      <ul class="nice-list">
+        <li><i class="fa-solid fa-check"></i> MERN platform with appointment & grooming/spa bookings</li>
+        <li><i class="fa-solid fa-check"></i> Product sales + clinic management modules</li>
+        <li><i class="fa-solid fa-check"></i> PDF report generation + Postman API testing</li>
+        <li><i class="fa-solid fa-check"></i> MVC architecture + centralized DB handling</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
